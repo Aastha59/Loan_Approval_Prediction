@@ -5,10 +5,10 @@ export default function About() {
     <div className="pm-about">
       <h2>ℹ️ About the Project</h2>
       <p>
-        Welcome to PaulPay™ — an AI-powered loan prediction tool designed to help financial institutions and applicants make smarter, faster lending decisions. 
+        Welcome to PaulLoan — an AI-powered loan prediction tool designed to help financial institutions and applicants make smarter, faster lending decisions. 
       </p>
       <p>
-        Using cutting-edge machine learning algorithms, PaulPay analyzes your financial details such as income, dependents, assets, credit history, and more — delivering accurate predictions in seconds.
+        Using cutting-edge machine learning algorithms, PaulLoan analyzes your financial details such as income, dependents, assets, credit history, and more — delivering accurate predictions in seconds.
       </p>
       <ul>
         <li>✅ Lightning-fast loan eligibility checks</li>

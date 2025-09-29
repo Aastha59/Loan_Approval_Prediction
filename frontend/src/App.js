@@ -190,7 +190,7 @@ function App() {
         <Sidebar selected={selected} setSelected={setSelected} />
         <main className="pm-main">
           {selected === "Home" && (
-            <Home onPredict={() => setSelected("Loan Prediction")} />
+            <Home onPredict={() => setSelected("Loan Prediction")} setSelected={setSelected} />
           )}
           {selected === "Loan Prediction" && <LoanPrediction />}
           {selected === "About" && <About />}

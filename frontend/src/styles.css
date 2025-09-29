@@ -213,7 +213,7 @@ body[data-theme="light"], .main-app.light {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--header-bg, #f8f9fa);
+  background: var(--header-bg, #d8d9db);
   padding: 10px 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -357,7 +357,7 @@ body[data-theme="light"], .main-app.light {
 .pm-sidebar {
   margin-top: 30px;
   width: 220px; /* or whatever fixed width you want */
-  background: linear-gradient(180deg, #262947 90%, #f6c104 100%);
+  background: linear-gradient(180deg, #2a349c 50%, #f6c104 100%);
   padding: 30px 10px;
   color: #fff;
   box-shadow: 0 2px 24px #e5eaf2;
@@ -548,7 +548,7 @@ body[data-theme="light"], .main-app.light {
 }
 .how-it-works {
   padding: 10px 10px;
-  background: #f3f4f6;
+  background: #f9f9fb;
   text-align: center;
 }
 
@@ -567,7 +567,7 @@ body[data-theme="light"], .main-app.light {
 }
 
 .step-card {
-  background: #fff;
+  background: #dbd8d8;
   border-radius: 15px;
   padding: 15px 10px;
   width: 200px;
@@ -607,7 +607,7 @@ body[data-theme="light"], .main-app.light {
   line-height: 1.6;
 }
 .testimonials {
-  background: radial-gradient(circle at top, #e7e6e122, #ffffff);
+  background: radial-gradient(circle at top, #fbf9f9);
   padding: 10px 10px;
   text-align: center;
   position: relative;

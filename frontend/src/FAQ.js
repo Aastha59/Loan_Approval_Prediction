@@ -25,7 +25,7 @@ export default function FAQ() {
       <section>
         <h3>Can I trust this prediction for real loan decisions?</h3>
         <p>
-          PaulPay is a decision-support tool designed to assist lending officers and applicants — it should be used as one of multiple factors in loan approval processes.
+          PaulLoan is a decision-support tool designed to assist lending officers and applicants — it should be used as one of multiple factors in loan approval processes.
         </p>
       </section>
       <section>
