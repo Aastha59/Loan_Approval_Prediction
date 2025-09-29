@@ -7,10 +7,10 @@ export default function Contact() {
       <p>
         Have questions, need support, or want to explore partnership opportunities? We're here to help!
       </p>
-      <p><strong>Email:</strong> support@paulmerchants.com</p>
+      <p><strong>Email:</strong> support@paulmerchants.net</p>
       <p><strong>Phone:</strong> +91-9999999999</p>
       <p><strong>Address:</strong> Chandigarh, India</p>
-      <div style={{ marginTop: "10px", fontWeight: "bold", color: "#4caf50" }}>
+      <div style={{ marginTop: "10px", fontWeight: "bold", color: "#2329ecff" }}>
         We usually reply within 24 hours ✅
       </div>
     </div>

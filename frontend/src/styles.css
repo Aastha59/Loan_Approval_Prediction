@@ -293,37 +293,60 @@ body[data-theme="light"], .main-app.light {
   color: #333;
 }
 
-.sliders label {
-  display: block;
+.inputs {
   margin: 10px 0;
-  font-size: 14px;
+  text-align: left;
 }
 
-.sliders input {
-  width: 100%;
+.input-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
 }
+
+.input-row label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #223344;
+}
+
+.input-row input {
+  padding: 7px;
+  border: 1.5px solid #066bf9;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #fff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-row input:focus {
+  outline: none;
+  border-color: #3609e9;
+  box-shadow: 0 0 6px rgba(0, 136, 254, 0.3);
+}
+
 
 /* Benefits Section */
 .benefits {
-  margin: 30px 0;
+  margin: 35px 0;
   text-align: center;
 }
 
 .benefits h3 {
   color: #004aad;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .benefit-list {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
 .benefit-card {
   background: #f9f9f9;
-  padding: 15px;
+  padding: 20px;
   border-radius: 12px;
   width: 180px;
   transition: transform 0.3s;
@@ -419,7 +442,7 @@ body[data-theme="light"], .main-app.light {
   transition: background 0.2s;
 }
 .pm-tab-btn.active, .pm-tab-btn:hover {
-  background: #fa8200;
+  background: #f6c104;
   color: #fff;
 }
 .pm-tab-body {
@@ -460,7 +483,7 @@ body[data-theme="light"], .main-app.light {
 
 /* Button */
 .pm-predict-btn {
-  background-color: #fa8200;
+  background-color: #f6c104;
   color: white;
   font-weight: 700;
   padding: 14px 26px;
@@ -472,7 +495,7 @@ body[data-theme="light"], .main-app.light {
   transition: background-color 0.3s ease;
 }
 .pm-predict-btn:hover {
-  background-color: #e26b00;
+  background-color: #f6c104;
 }
 
 /* Prediction result styling */
@@ -498,7 +521,7 @@ body[data-theme="light"], .main-app.light {
   position: relative;
 }
 .pm-progress {
-  background: #fa8200;
+  background: #f6c104;
   height: 22px;
   border-radius: 18px;
   position: absolute;
@@ -535,7 +558,7 @@ body[data-theme="light"], .main-app.light {
 }
 
 .pm-about h2, .pm-contact h2, .pm-faq h2 {
-  color: #fa8200;
+  color: #0e0d0d;
   margin-bottom: 12px;
 }
 
@@ -543,7 +566,7 @@ body[data-theme="light"], .main-app.light {
   margin-bottom: 20px;
 }
 .pm-faq h3 {
-  color: #308fa7;
+  color: #2026d8;
   margin-bottom: 6px;
 }
 .how-it-works {

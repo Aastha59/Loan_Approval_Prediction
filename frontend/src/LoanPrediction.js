@@ -50,10 +50,10 @@ export default function LoanPrediction() {
   return (
     <div>
       {/* Dashboard Metric */}
-      <div className="pm-metric">
+      {/* <div className="pm-metric">
         <strong>📊 Model Accuracy:</strong>{" "}
         <span>{(accuracy * 100).toFixed(2)}%</span>
-      </div>
+      </div> */}
       <DashboardTabs
         form={form}
         setForm={setForm}

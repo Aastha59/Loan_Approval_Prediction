@@ -387,14 +387,14 @@ if selected == "Loan Prediction":
     st.plotly_chart(fig, use_container_width=True, key="approval_gauge_chart")
 
 
-elif selected == "About":
-    from pages.about import show_about
-    show_about()
+# elif selected == "About":
+#     from pages.about import show_about
+#     show_about()
 
-elif selected == "FAQ":
-    from pages.faq import show_faq
-    show_faq()
+# elif selected == "FAQ":
+#     from pages.faq import show_faq
+#     show_faq()
 
-elif selected == "Contact":
-    from pages.contact import show_contact
-    show_contact()
+# elif selected == "Contact":
+#     from pages.contact import show_contact
+#     show_contact()

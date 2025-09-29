@@ -21,7 +21,7 @@ const ChatRedirectButton = ({ chatbotUrl }) => {
           position: "fixed",
           bottom: 30,
           right: 30,
-          backgroundColor: "#fa8200",
+          backgroundColor: "#043cf6ff",
           color: "#fff",
           borderRadius: "50%",
           width: 60,
@@ -59,7 +59,7 @@ const ChatRedirectButton = ({ chatbotUrl }) => {
           <button
             onClick={openChatbot}
             style={{
-              backgroundColor: "#fa8200",
+              backgroundColor: "#2113e3ff",
               color: "#fff",
               padding: "12px 24px",
               borderRadius: 8,

@@ -3,7 +3,7 @@ import React from "react";
 export default function FAQ() {
   return (
     <div className="pm-faq">
-      <h2>❓ Frequently Asked Questions</h2>
+      <h2>Frequently Asked Questions</h2>
       <section>
         <h3>What data is needed for loan prediction?</h3>
         <p>
