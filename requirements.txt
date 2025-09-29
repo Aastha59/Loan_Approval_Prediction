@@ -1,0 +1,8 @@
+# cmd: streamlit run app.py
+plotly
+pandas
+scikit-learn
+numpy
+
+
+# frontend - cd frontend && npm start

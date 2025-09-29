@@ -1,0 +1,185 @@
+/* src/Home.css */
+.home-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.4;
+}
+
+/* Hero Section */
+.home-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0.5rem;
+}
+.hero-text {
+  max-width: 50%;
+}
+.hero-text h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.hero-image {
+  flex: 1;
+  max-width: 60%;  /* allow image container to occupy 60% of horizontal space */
+  display: flex;
+  justify-content: center;
+}
+
+/* Image itself fills its container */
+.hero-image img {
+  width: 100%;     /* fill 100% of its parent (.hero-image) */
+  height: auto;
+  object-fit: contain;
+}
+.highlight {
+  color: #5d2dfd;
+}
+.hero-text p {
+  margin: 0.4rem 0 0.8rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+.btn-predict {
+  padding: 0.35rem 0.75rem;
+  background: #5d2dfd;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.btn-predict:hover {
+  background: #a58ddd;
+}
+.hero-image img {
+  max-width: 380px; /* increased size */
+  width: 100%;
+  height: auto;
+}
+
+/* Features Section */
+.features {
+  padding: 1rem 0.5rem;
+  background: #f9f9fc;
+  text-align: center;
+}
+.features h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+.feature-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+.card {
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  flex: 1;
+  max-width: 200px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+.icon {
+  font-size: 1.2rem;
+}
+.card h3 {
+  margin-top: 0.4rem;
+  font-size: 1rem;
+}
+.card p {
+  margin-top: 0.3rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* How It Works */
+.how-it-works {
+  padding: 1rem 0.5rem;
+}
+.how-it-works h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+.steps {
+  max-width: 400px;
+  margin: 0 auto;
+  list-style: decimal inside;
+  font-size: 0.9rem;
+}
+.steps li {
+  margin-bottom: 0.4rem;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 1rem 0.5rem;
+  background: #f9f9fc;
+}
+.testimonials h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+.testimonials-list {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.testimonials blockquote {
+  font-style: italic;
+  color: #444;
+  margin: 0.6rem 0;
+  padding-left: 0.4rem;
+  border-left: 3px solid #5d2dfd;
+}
+.testimonials cite {
+  display: block;
+  text-align: right;
+  margin-top: 0.2rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+/* Footer */
+.site-footer {
+  background: #222;
+  color: #bbb;
+  padding: 0.75rem 0.5rem;
+  font-size: 0.8rem;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.footer-section {
+  flex: 1;
+  min-width: 130px;
+}
+.footer-section h4 {
+  color: #fff;
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-section ul li {
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+}
+.footer-section ul li:hover {
+  text-decoration: underline;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 0.5rem;
+  border-top: 1px solid #444;
+  padding-top: 0.4rem;
+  font-size: 0.75rem;
+}
